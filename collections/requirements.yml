@@ -1,6 +1,6 @@
 ---
 collections:
-   - name: https://localhost:8000/ajaco_websphere.git
+   - name: https://github.com/ajaco56/sdr-tv-notworking-on-gnuradio-3.8.0.0.git
      type: git
 
 
