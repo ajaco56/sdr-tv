@@ -1,6 +1,5 @@
 ---
 collections:
-   - name: https://github.com/ajaco56/sdr-tv-notworking-on-gnuradio-3.8.0.0.git
+   - name: git+https://github.com/ajaco56/sdr-tv-notworking-on-gnuradio-3.8.0.0.git
      type: git
-
-
+     version: master
