@@ -1,1 +1,6 @@
+---
+collections:
+   - name: https://localhost/ajaco_websphere.git
+     type: git
+
 
