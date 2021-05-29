@@ -1,1 +1,20 @@
-
+---
+- hosts: all
+  tasks:
+    - startserver:
+         params: "{{ servername }}"
+         nowait: True
+      register: rc
+      become: yes
+      become_user: wasusr
+      become_method: sudo
+    - debug:
+        msg: "{{ rc }}"
+    - startserver:
+         params: "{{ servername }}"
+      register: rc
+      become: yes
+      become_user: wasusr
+      become_method: sudo
+    - debug:
+        msg: "{{ rc }}"
